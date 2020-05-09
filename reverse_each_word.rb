@@ -1,8 +1,8 @@
 
 def reverse_each_word(phrase)
-   phrase.split(" ")
+   new_array = phrase.split(" ")
    
-   phrase.each{|word| word.reverse}
+   .each{|word| word.reverse}
      phrase
    end
 

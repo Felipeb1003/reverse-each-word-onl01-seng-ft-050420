@@ -3,7 +3,7 @@ def reverse_each_word(phrase)
    new_array = phrase.split(" ")
    new_array
    new_array.each do |phrases|
-    puts "phrases.reverse"
+    puts "#{phrases[0].reverse}"
    end
    
   end
